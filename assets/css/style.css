@@ -1,0 +1,81 @@
+*{
+  font-family: helvetica, sans-serif;
+}
+
+body{
+  background-color: #FFE1BD;
+}
+
+#logo-header{
+  font-size: 80px;
+  text-decoration: blink;
+  color: black;
+}
+
+.spanOrange{
+  color: orange;
+}
+
+h1{
+  font-size: 40px;
+  color: orange;
+  background-color: black;
+  padding: 20px;
+
+}
+
+.select{
+  border: none;
+  color: white;
+  background-color: #FDCC0E;
+  padding: 15px;
+  font-size: large;
+}
+
+.select:hover{
+  background-color: orange;
+}
+
+h2{
+  text-align: center;
+  width: auto;
+  color: white;
+  background-color: black;
+  padding: 10px;
+
+}
+
+.imgContainer{
+  height: auto;
+}
+
+div.coder-img{
+  width: 300px;
+  display:inline-block;
+  padding: 10px 10px 10px 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  margin-bottom: 35px;
+  background-color: white;
+  width: 300px;
+  overflow: hidden;
+}
+
+.coder-img img {
+	width: 300px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  opacity: 0.3;
+  border-radius: 10px;
+}
+
+.coder-img img:hover{
+	width: 320px;
+  opacity: 1;
+  filter: alpha(opacity=50);
+}
+
+.coder-img:hover{
+  background-color: orange;
+}
